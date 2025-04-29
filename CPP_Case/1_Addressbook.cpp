@@ -1,7 +1,6 @@
 #include <iostream>
 #include "1_Addressbook.h"
 
-
 //菜单界面
 void _1_Addressbook::ShowMenu()
 {
@@ -15,7 +14,6 @@ void _1_Addressbook::ShowMenu()
 	cout << "*****  0、退出通讯录  *****" << endl;
 	cout << "***************************" << endl;
 }
-
 
 void _1_Addressbook::AddPerson(Addressbook* abs)
 {
@@ -101,11 +99,9 @@ void _1_Addressbook::ShowPerson(Addressbook abs)
 
 	system("pause");
 	system("cls");
-
 }
 
 #pragma region delete
-
 
 int _1_Addressbook::IsExist(Addressbook abs, string name)
 {
@@ -169,7 +165,6 @@ void _1_Addressbook::FindPerson(Addressbook abs)
 
 	system("pause");
 	system("cls");
-
 }
 
 void _1_Addressbook::ModifyPerson(Addressbook* abs)
@@ -230,7 +225,6 @@ void _1_Addressbook::ModifyPerson(Addressbook* abs)
 
 	system("pause");
 	system("cls");
-
 }
 
 void _1_Addressbook::CleanPerson(Addressbook* abs)
