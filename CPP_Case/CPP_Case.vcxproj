@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1_Addressbook.cpp" />
+    <ClCompile Include="2_Cube.cpp" />
+    <ClCompile Include="3_CircleAndPoint.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
