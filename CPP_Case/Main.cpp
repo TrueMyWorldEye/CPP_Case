@@ -2,13 +2,13 @@
 #include "2_Cube.h"
 #include "3_CircleAndPoint.cpp"
 #include <iostream>
+#include "4_Calculator.h"
 
 void Test_1()
 {
 	_1_Addressbook _1;
 	_1.Entrance();
 }
-
 
 int Test_2()
 {
@@ -25,15 +25,6 @@ int Test_2()
 	cube_2.SetW(15);
 	cube_2.SetL(12);
 
-	//if (IsSame(cube_1, cube_2))
-	//{
-	//	cout << "cube_1 and cube_2 are the same" << endl;
-	//}
-	//else
-	//{
-	//	cout << "cube_1 and cube_2 are different" << endl;
-	//}
-
 	if (cube_1.IsSameByClass(cube_2))
 	{
 		cout << "cube_1 and cube_2 are the same" << endl;
@@ -46,6 +37,7 @@ int Test_2()
 	system("pause");
 	return 0;
 }
+
 int Test_3()
 {
 	Circle circle;
@@ -72,7 +64,32 @@ int Test_3()
 	return 0;
 }
 
+int Test_4()
+{
+	// 计算器
+	AbstractCalculator* calculator = new AddCalculator();
+	calculator->m_Num1 = 10;
+	calculator->m_Num2 = 20;
+	cout << "Add: " << calculator->getResult() << endl;
+	delete calculator;
+	calculator = new SubCalculator();
+	calculator->m_Num1 = 20;
+	calculator->m_Num2 = 10;
+	cout << "Sub: " << calculator->getResult() << endl;
+	delete calculator;
+	calculator = new MulCalculator();
+	calculator->m_Num1 = 10;
+	calculator->m_Num2 = 20;
+	cout << "Mul: " << calculator->getResult() << endl;
+	delete calculator;
+	return 0;
+}
+
 int main()
 {
-	return Test_3();
+	//Test_1();
+	//Test_2();
+	//Test_3();
+	Test_4();
+	return 0;
 }

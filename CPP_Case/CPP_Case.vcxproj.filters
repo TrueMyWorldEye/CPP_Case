@@ -27,12 +27,18 @@
     <ClCompile Include="2_Cube.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="4_Calculator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1_Addressbook.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="2_Cube.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4_Calculator.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -130,11 +130,13 @@
     <ClCompile Include="1_Addressbook.cpp" />
     <ClCompile Include="2_Cube.cpp" />
     <ClCompile Include="3_CircleAndPoint.cpp" />
+    <ClCompile Include="4_Calculator.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1_Addressbook.h" />
     <ClInclude Include="2_Cube.h" />
+    <ClInclude Include="4_Calculator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
