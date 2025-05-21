@@ -36,6 +36,9 @@
     <ClCompile Include="5_AbstractDrinking.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="6_ComputerAssembling.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1_Addressbook.h">
