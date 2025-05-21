@@ -131,6 +131,8 @@
     <ClCompile Include="2_Cube.cpp" />
     <ClCompile Include="3_CircleAndPoint.cpp" />
     <ClCompile Include="4_Calculator.cpp" />
+    <ClCompile Include="5_AbstractDrinking.cpp" />
+    <ClCompile Include="FileName.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
