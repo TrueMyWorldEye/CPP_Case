@@ -133,13 +133,14 @@
     <ClCompile Include="4_Calculator.cpp" />
     <ClCompile Include="5_AbstractDrinking.cpp" />
     <ClCompile Include="6_ComputerAssembling.cpp" />
-    <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="7_WorkerManager.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1_Addressbook.h" />
     <ClInclude Include="2_Cube.h" />
     <ClInclude Include="4_Calculator.h" />
+    <ClInclude Include="7_WorkerManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

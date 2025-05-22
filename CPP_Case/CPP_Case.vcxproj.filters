@@ -30,13 +30,13 @@
     <ClCompile Include="4_Calculator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="FileName.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="5_AbstractDrinking.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="6_ComputerAssembling.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7_WorkerManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,6 +48,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="4_Calculator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="7_WorkerManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

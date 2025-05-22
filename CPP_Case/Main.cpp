@@ -1,8 +1,10 @@
+#pragma once
+#include <iostream>
 #include "1_Addressbook.h"
 #include "2_Cube.h"
 #include "3_CircleAndPoint.cpp"
-#include <iostream>
 #include "4_Calculator.h"
+#include "7_WorkerManager.h"
 
 void Test_1()
 {
@@ -85,11 +87,58 @@ int Test_4()
 	return 0;
 }
 
+void Test_7()
+{
+	/// 职工管理系统
+	WorkerManager wm;
+	int choice = 0;
+	while (true)
+	{
+		wm.showMenu();
+		cout << "请输入您的选择: ";
+		cin >> choice;
+
+		switch (choice)
+		{
+		case 0:
+			wm.exitSystem();
+			break;
+		case 1:
+			wm.addEmp();
+			break;
+		case 2:
+			wm.showEmp();
+			break;
+		case 3:
+			wm.deleteEmp();
+			break;
+		case 4:
+			wm.modifyEmp();
+			break;
+		case 5:
+			wm.findEmp();
+			break;
+		case 6:
+			wm.sortEmp();
+			break;
+		case 7:
+			wm.cleanFile();
+			break;
+		default:
+			system("cls");
+			cout << "输入错误，请重新输入！" << endl;
+			break;
+		}
+	}
+}
+
 int main()
 {
 	//Test_1();
 	//Test_2();
 	//Test_3();
-	Test_4();
+	//Test_4();
+	Test_7();
+
 	return 0;
 }
