@@ -39,6 +39,15 @@
     <ClCompile Include="7_WorkerManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="8_JudgeScore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9_GroupWorker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10_SpeechContest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1_Addressbook.h">
@@ -51,6 +60,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="7_WorkerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8_JudgeScore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9_GroupWorker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="10_SpeechContest.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

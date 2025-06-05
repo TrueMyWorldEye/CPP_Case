@@ -5,6 +5,7 @@
 #include "3_CircleAndPoint.cpp"
 #include "4_Calculator.h"
 #include "7_WorkerManager.h"
+#include "10_SpeechContest.h"
 
 void Test_1()
 {
@@ -132,13 +133,48 @@ void Test_7()
 	}
 }
 
+void Test_10()
+{
+	// 演讲比赛管理系统
+	SpeechManager sm;
+	int choice = 0; //用来存储用户的选项
+
+	while (true)
+	{
+		sm.show_Menu();
+
+		cout << "请输入您的选择： " << endl;
+		cin >> choice; // 接受用户的选项
+
+		switch (choice)
+		{
+		case 1:  //开始比赛
+			sm.startSpeech();
+			break;
+		case 2:  //查看记录
+			sm.showRecord(); //显示记录
+			break;
+		case 3:  //清空记录
+			sm.clearRecord(); //清空记录
+			break;
+		case 0:  //退出系统
+			sm.exitSystem(); //退出系统
+			break;
+		default:
+			system("cls"); //清屏
+			break;
+		}
+	}
+}
+
 int main()
 {
 	//Test_1();
 	//Test_2();
 	//Test_3();
 	//Test_4();
-	Test_7();
+	//Test_7();
+	Test_10();
 
 	return 0;
 }

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10_SpeechContest.cpp" />
     <ClCompile Include="1_Addressbook.cpp" />
     <ClCompile Include="2_Cube.cpp" />
     <ClCompile Include="3_CircleAndPoint.cpp" />
@@ -134,13 +135,18 @@
     <ClCompile Include="5_AbstractDrinking.cpp" />
     <ClCompile Include="6_ComputerAssembling.cpp" />
     <ClCompile Include="7_WorkerManager.cpp" />
+    <ClCompile Include="8_JudgeScore.cpp" />
+    <ClCompile Include="9_GroupWorker.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="10_SpeechContest.h" />
     <ClInclude Include="1_Addressbook.h" />
     <ClInclude Include="2_Cube.h" />
     <ClInclude Include="4_Calculator.h" />
     <ClInclude Include="7_WorkerManager.h" />
+    <ClInclude Include="8_JudgeScore.h" />
+    <ClInclude Include="9_GroupWorker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
